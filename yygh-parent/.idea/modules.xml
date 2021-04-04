@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" group="yygh-parent and modules/common and modules" />
+      <module fileurl="file://$PROJECT_DIR$/common/common-util/common-util.iml" filepath="$PROJECT_DIR$/common/common-util/common-util.iml" group="yygh-parent and modules/common and modules" />
+      <module fileurl="file://$PROJECT_DIR$/hospital-manage/hospital-manage.iml" filepath="$PROJECT_DIR$/hospital-manage/hospital-manage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/model/model.iml" filepath="$PROJECT_DIR$/model/model.iml" group="yygh-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/service/service.iml" filepath="$PROJECT_DIR$/service/service.iml" group="yygh-parent and modules/service and modules" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-cmn/service-cmn.iml" filepath="$PROJECT_DIR$/service/service-cmn/service-cmn.iml" group="yygh-parent and modules/service and modules" />
+      <module fileurl="file://$PROJECT_DIR$/service-gateway/service-gateway.iml" filepath="$PROJECT_DIR$/service-gateway/service-gateway.iml" group="yygh-parent and modules" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-hosp/service-hosp.iml" filepath="$PROJECT_DIR$/service/service-hosp/service-hosp.iml" group="yygh-parent and modules/service and modules" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-order/service-order.iml" filepath="$PROJECT_DIR$/service/service-order/service-order.iml" group="yygh-parent and modules/service and modules" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-oss/service-oss.iml" filepath="$PROJECT_DIR$/service/service-oss/service-oss.iml" group="yygh-parent and modules/service and modules" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-sms/service-sms.iml" filepath="$PROJECT_DIR$/service/service-sms/service-sms.iml" group="yygh-parent and modules/service and modules" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-statistics/service-statistics.iml" filepath="$PROJECT_DIR$/service/service-statistics/service-statistics.iml" group="yygh-parent and modules/service and modules" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-task/service-task.iml" filepath="$PROJECT_DIR$/service/service-task/service-task.iml" group="yygh-parent and modules/service and modules" />
+      <module fileurl="file://$PROJECT_DIR$/service/service-user/service-user.iml" filepath="$PROJECT_DIR$/service/service-user/service-user.iml" group="yygh-parent and modules/service and modules" />
+      <module fileurl="file://$PROJECT_DIR$/common/service-util/service-util.iml" filepath="$PROJECT_DIR$/common/service-util/service-util.iml" group="yygh-parent and modules/common and modules" />
+      <module fileurl="file://$PROJECT_DIR$/service_client/service_client.iml" filepath="$PROJECT_DIR$/service_client/service_client.iml" group="yygh-parent and modules/service_client and modules" />
+      <module fileurl="file://$PROJECT_DIR$/service_client/service_cmn_client/service_cmn_client.iml" filepath="$PROJECT_DIR$/service_client/service_cmn_client/service_cmn_client.iml" group="yygh-parent and modules/service_client and modules" />
+      <module fileurl="file://$PROJECT_DIR$/service_client/service_hosp_client/service_hosp_client.iml" filepath="$PROJECT_DIR$/service_client/service_hosp_client/service_hosp_client.iml" group="yygh-parent and modules/service_client and modules" />
+      <module fileurl="file://$PROJECT_DIR$/service_client/service_order_client/service_order_client.iml" filepath="$PROJECT_DIR$/service_client/service_order_client/service_order_client.iml" group="yygh-parent and modules/service_client and modules" />
+      <module fileurl="file://$PROJECT_DIR$/service_client/service_user_client/service_user_client.iml" filepath="$PROJECT_DIR$/service_client/service_user_client/service_user_client.iml" group="yygh-parent and modules/service_client and modules" />
+      <module fileurl="file://$PROJECT_DIR$/yygh-parent.iml" filepath="$PROJECT_DIR$/yygh-parent.iml" group="yygh-parent and modules" />
+    </modules>
+  </component>
+</project>

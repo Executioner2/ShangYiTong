@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="common-util" />
+        <module name="service-gateway" />
+        <module name="service_hosp_client" />
+        <module name="service-task" />
+        <module name="service-oss" />
+        <module name="service-util" />
+        <module name="service-hosp" />
+        <module name="service-order" />
+        <module name="service-cmn" />
+        <module name="service_order_client" />
+        <module name="service_user_client" />
+        <module name="service-user" />
+        <module name="service-statistics" />
+        <module name="model" />
+        <module name="service_cmn_client" />
+        <module name="service-sms" />
+        <module name="hospital-manage" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="common" target="1.8" />
+      <module name="common-util" target="1.8" />
+      <module name="hospital-manage" target="1.8" />
+      <module name="model" target="1.8" />
+      <module name="service" target="1.8" />
+      <module name="service-cmn" target="1.8" />
+      <module name="service-gateway" target="1.8" />
+      <module name="service-hosp" target="1.8" />
+      <module name="service-order" target="1.8" />
+      <module name="service-oss" target="1.8" />
+      <module name="service-sms" target="1.8" />
+      <module name="service-statistics" target="1.8" />
+      <module name="service-task" target="1.8" />
+      <module name="service-user" target="1.8" />
+      <module name="service-util" target="1.8" />
+      <module name="service_client" target="1.8" />
+      <module name="service_cmn_client" target="1.8" />
+      <module name="service_hosp_client" target="1.8" />
+      <module name="service_order_client" target="1.8" />
+      <module name="service_user_client" target="1.8" />
+      <module name="untitled" target="1.8" />
+      <module name="yygh-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="common" options="-parameters" />
+      <module name="common-util" options="-parameters" />
+      <module name="hospital-manage" options="-parameters" />
+      <module name="model" options="-parameters" />
+      <module name="service" options="-parameters" />
+      <module name="service-cmn" options="-parameters" />
+      <module name="service-gateway" options="-parameters" />
+      <module name="service-hosp" options="-parameters" />
+      <module name="service-order" options="-parameters" />
+      <module name="service-oss" options="-parameters" />
+      <module name="service-sms" options="-parameters" />
+      <module name="service-statistics" options="-parameters" />
+      <module name="service-task" options="-parameters" />
+      <module name="service-user" options="-parameters" />
+      <module name="service-util" options="-parameters" />
+      <module name="service_client" options="-parameters" />
+      <module name="service_cmn_client" options="-parameters" />
+      <module name="service_hosp_client" options="-parameters" />
+      <module name="service_order_client" options="-parameters" />
+      <module name="service_user_client" options="-parameters" />
+      <module name="untitled" options="-parameters" />
+    </option>
+  </component>
+</project>
