@@ -1,0 +1,55 @@
+server:
+  port: 80
+
+spring:
+  application:
+    name: service-gateway
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    # 使用服务发现路由
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes: # - 表示这个属性可以有多个，也可以理解为表示数组
+        - id: service-hosp #路由的ID，没有固定规则但要求唯一，建议配合服务名
+          uri: lb://service-hosp #匹配后提供服务的路由地址
+          predicates:
+            - Path=/*/hosp/**
+
+        - id: service-cmn #路由的ID，没有固定规则但要求唯一，建议配合服务名
+          uri: lb://service-cmn #匹配后提供服务的路由地址
+          predicates:
+            - Path=/*/cmn/**
+
+        - id: service-user #路由的ID，没有固定规则但要求唯一，建议配合服务名
+          uri: lb://service-user #匹配后提供服务的路由地址
+          predicates:
+            - Path=/*/user/**
+
+        - id: service-msm #路由的ID，没有固定规则但要求唯一，建议配合服务名
+          uri: lb://service-msm #匹配后提供服务的路由地址
+          predicates:
+            - Path=/*/msm/**
+
+        - id: service-user #路由的ID，没有固定规则但要求唯一，建议配合服务名
+          uri: lb://service-user #匹配后提供服务的路由地址
+          predicates:
+            - Path=/*/ucenter/**
+
+        - id: service-oss #路由的ID，没有固定规则但要求唯一，建议配合服务名
+          uri: lb://service-oss #匹配后提供服务的路由地址
+          predicates:
+            - Path=/*/oss/**
+
+        - id: service-order #路由的ID，没有固定规则但要求唯一，建议配合服务名
+          uri: lb://service-order #匹配后提供服务的路由地址
+          predicates:
+            - Path=/*/order/**
+
+        - id: service-statistics #路由的ID，没有固定规则但要求唯一，建议配合服务名
+          uri: lb://service-statistics #匹配后提供服务的路由地址
+          predicates:
+            - Path=/*/statistics/**

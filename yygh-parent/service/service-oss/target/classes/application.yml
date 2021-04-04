@@ -1,0 +1,26 @@
+server:
+  port: 8205
+
+spring:
+  application:
+    name: service-oss
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  # 设置文件上传大小限制
+  servlet:
+    multipart:
+      max-request-size: 5MB
+      max-file-size: 5MB
+
+
+aliyun:
+  oss:
+    endpoint: oss-cn-chengdu.aliyuncs.com
+    accessKeyId: LTAI5t8iyGki47u5nUMZQdYp
+    secret: myFXuWzkjuDXHyeqMsdiIWZkYWmTts
+    bucket: yygh-study

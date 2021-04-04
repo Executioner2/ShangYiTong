@@ -1,0 +1,50 @@
+server:
+  port: 8204
+
+spring:
+  application:
+    name: service-msm
+  # 返回json的全局时间格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  redis:
+    host: 192.168.123.130
+    port: 6379
+    database: 0
+    timeout: 1800000
+    lettuce:
+      pool:
+        max-active: 20
+        max-wait: -1
+        max-idle: 5
+        min-idle: 0
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    stream:
+      binders: # 在此处配置要绑定的rabbitmq的服务信息；
+        defaultRabbit: # 表示定义的名称，用于于binding整合
+          type: rabbit # 消息组件类型
+          environment: # 设置rabbitmq的相关的环境配置
+            spring:
+              rabbitmq:
+                host: 192.168.123.130
+                port: 5672
+                username: root
+                password: 123321
+      bindings: # 服务的整合处理
+        input: # 这个名字是一个通道的名称
+          destination: exchange.direct.task # 表示要使用的Exchange名称定义
+          content-type: application/json # 设置消息类型，本次为对象json，如果是文本则设置“text/plain”
+          binder: defaultRabbit # 设置要绑定的消息服务的具体设置
+          group: Task-Group
+
+# 这个自己去阿里云申请短信服务需要网站上线了
+# 所以这个写的时尚硅谷视频中的密钥相关信息
+aliyun:
+  sms:
+    regionId: default
+    accessKeyId: LT6I0Y5633pX89qC
+    secret: jX8D04Dm12I3gGKj345FYSzu0fq8mT

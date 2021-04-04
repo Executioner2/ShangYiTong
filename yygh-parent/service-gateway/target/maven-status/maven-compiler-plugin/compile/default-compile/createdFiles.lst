@@ -1,0 +1,3 @@
+com\study\yygh\getway\config\CorsConfig.class
+com\study\yygh\getway\ServerGateWayApplication.class
+com\study\yygh\getway\Filter\AuthGlobalFilter.class

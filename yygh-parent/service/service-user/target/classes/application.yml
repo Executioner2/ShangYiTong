@@ -1,0 +1,48 @@
+# 服务端口
+server:
+  port: 8203
+
+spring:
+  application:
+    # 服务名
+    name: service-user
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.123.130:3306/yygh_user?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8
+    username: root
+    password: 123321
+  # 返回json的全局时间格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  redis:
+    host: 192.168.123.130
+    port: 6379
+    database: 0
+    timeout: 1800000
+    lettuce:
+      pool:
+        max-active: 20
+        max-wait: -1
+        max-idle: 5
+        min-idle: 0
+
+mybatis-plus:
+  mapper-locations: com/study/yygh/user/mapper/xml/*.xml
+
+# 微信登录参数，用的微信api测试账号，域名是natapp上搞的免费的内网穿透
+# 后续补充，这个申请到的测试账号是公众号的，连接只能在微信客户端且关注了这个测试公众号后才能打开
+wx:
+  open:
+    app_id: wxff5db53def71d004
+    app_secret: 59b0368ba1dd14266d389fab707fc331
+    redirect_url: http://6pb9jd.natappfree.cc/api/ucenter/wx/callback
+
+# 前端前台服务地址
+yygh:
+  baseUrl: http://localhost:3000
+

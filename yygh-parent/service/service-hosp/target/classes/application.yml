@@ -1,0 +1,77 @@
+# 服务端口
+server:
+  port: 8201
+
+spring:
+  # 环境设置：dev、test、prod
+  profiles:
+    active: dev
+  # 服务名
+  application:
+    name: service-hosp
+  # mysql数据库连接
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.123.130:3306/yygh_hosp?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8
+    username: root
+    password: 123321
+  # 返回json的全局时间格式
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  # 添加mongoDB连接信息
+  data:
+    mongodb:
+      uri: mongodb://192.168.123.130:27017/yygh_hosp
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    stream:
+      binders: # 在此处配置要绑定的rabbitmq的服务信息；
+        defaultRabbit: # 表示定义的名称，用于于binding整合
+          type: rabbit # 消息组件类型
+          environment: # 设置rabbitmq的相关的环境配置
+            spring:
+              rabbitmq:
+                host: 192.168.123.130
+                port: 5672
+                username: root
+                password: 123321
+      bindings: # 服务的整合处理
+        input: # 这个名字是一个通道的名称
+          destination: exchange.direct.order # 表示要使用的Exchange名称定义
+          content-type: application/json # 设置消息类型，本次为对象json，如果是文本则设置“text/plain”
+          binder: defaultRabbit # 设置要绑定的消息服务的具体设置
+          # 解决消费者重复读取队列中的消息，就是分组，同一个分组的消费者只会拿一次，不会都同时拿相同的（轮询策略）
+          # 分组还能实现消息持久化
+          group: Order_Group #<---关键
+
+# 配置mapper xml文件的路径
+mybatis-plus:
+  mapper-locations: classpath:com/study/yygh/hosp/mapper/xml/*.xml
+
+# 日志打印级别
+logging:
+  level:
+    root: debug
+
+# nacos服务地址
+#  spring.cloud.nacos.discovery.server-addr=127.0.0.1:8848
+
+  #开启sentinel
+#  feign.sentinel.enabled=true
+  #设置sentinel地址
+#  spring.cloud.sentinel.transport.dashboard=http://127.0.0.1:8858
+
+  #mongodb地址
+#  spring.data.mongodb.host=192.168.44.163
+#  spring.data.mongodb.port=27017
+#  spring.data.mongodb.database=yygh_hosp
+
+  #rabbitmq地址
+#  spring.rabbitmq.host=127.0.0.1
+#  spring.rabbitmq.port=5672
+#  spring.rabbitmq.username=guest
+#  spring.rabbitmq.password=guest
+

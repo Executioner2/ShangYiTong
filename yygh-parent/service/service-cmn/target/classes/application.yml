@@ -1,0 +1,37 @@
+server:
+  port: 8202
+
+spring:
+  application:
+    name: service-cmn
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://192.168.123.130:3306/yygh_cmn?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8
+    username: root
+    password: 123321
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  # redis配置
+  redis:
+    host: 192.168.123.130
+    port: 6379
+    database: 0
+    lettuce:
+      shutdown-timeout: 1800000
+      pool:
+        max-active: 20
+        #最大阻塞等待时间(负数表示没限制)
+        max-idle: 5
+        min-idle: 0
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+
+# 配置mapper xml文件的路径
+mybatis-plus:
+  mapper-locations: classpath:com/study/yygh/cmn/mapper/xml/*.xml
+

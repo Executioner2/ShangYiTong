@@ -1,0 +1,55 @@
+server:
+  port: 8206
+
+spring:
+  application:
+    name: service-order
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    stream:
+      binders: # 在此处配置要绑定的rabbitmq的服务信息；
+        defaultRabbit: # 表示定义的名称，用于于binding整合
+          type: rabbit # 消息组件类型
+          environment: # 设置rabbitmq的相关的环境配置
+            spring:
+              rabbitmq:
+                host: 192.168.123.130
+                port: 5672
+                username: root
+                password: 123321
+      bindings: # 服务的整合处理
+        output: # 这个名字是一个通道的名称
+          destination: exchange.direct.order # 表示要使用的Exchange名称定义
+          content-type: application/json # 设置消息类型，本次为json，文本则设置“text/plain”
+          binder: defaultRabbit # 设置要绑定的消息服务的具体设置
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss
+    time-zone: GMT+8
+  data:
+    mongodb:
+      uri: mongodb://192.168.123.130:27017/yygh_hosp
+  datasource:
+    url: jdbc:mysql://192.168.123.130:3306/yygh_order?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=GMT%2B8
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 123321
+  rabbitmq:
+    host: 192.168.123.130
+  redis:
+    host: 192.168.123.130
+    port: 6379
+    database: 0
+    timeout: 1800000
+
+# 关联的公众号，微信支付用(用的尚硅谷的认证)
+weixin:
+  pay:
+    appid: wx74862e0dfcf69954 # appid
+    partner: 1558950191 # 商户号
+    partnerkey: T6m9iK73b0kn9g5v426MKfHQH7X8rKwb # 商户key
+  cert: E:\\JavaProject\\study\\ShangYiTong\\yygh-parent\\service\\service-order\\src\\main\\resources\\cert
+
+mybatis-plus:
+  mapper-locations: classpath:com/study/yygh/order/mapper/xml/*.xml
