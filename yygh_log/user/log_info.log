@@ -1,0 +1,242 @@
+2021-04-03 16:00:56.531 [restartedMain] INFO  com.study.hospital.ManageApplication - Starting ManageApplication on YoRHa with PID 238236 (E:\JavaProject\study\ShangYiTong\yygh-parent\hospital-manage\target\classes started by Administrator in E:\JavaProject\study\ShangYiTong\yygh-parent)
+2021-04-03 16:00:56.537 [restartedMain] INFO  com.study.hospital.ManageApplication - The following profiles are active: dev
+2021-04-03 16:00:56.580 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-03 16:00:56.581 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-03 16:00:58.039 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-03 16:00:58.472 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2021-04-03 16:00:58.482 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2021-04-03 16:00:58.483 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-03 16:00:58.483 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-04-03 16:00:58.614 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-03 16:00:58.615 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2034 ms
+2021-04-03 16:00:58.965 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2021-04-03 16:00:59.467 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2021-04-03 16:01:00.011 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-03 16:01:00.172 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-03 16:01:00.209 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-03 16:01:00.456 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-03 16:01:00.475 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-03 16:01:00.524 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-03 16:01:00.556 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2021-04-03 16:01:00.594 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2021-04-03 16:01:00.602 [restartedMain] INFO  com.study.hospital.ManageApplication - Started ManageApplication in 4.63 seconds (JVM running for 5.819)
+2021-04-03 16:09:30.196 [restartedMain] INFO  com.study.hospital.ManageApplication - Starting ManageApplication on YoRHa with PID 12652 (E:\JavaProject\study\ShangYiTong\yygh-parent\hospital-manage\target\classes started by Administrator in E:\JavaProject\study\ShangYiTong\yygh-parent)
+2021-04-03 16:09:30.200 [restartedMain] INFO  com.study.hospital.ManageApplication - The following profiles are active: dev
+2021-04-03 16:09:30.255 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-03 16:09:30.255 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-03 16:09:32.136 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-03 16:09:32.677 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2021-04-03 16:09:32.692 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2021-04-03 16:09:32.692 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-03 16:09:32.693 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-04-03 16:09:32.813 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-03 16:09:32.815 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2560 ms
+2021-04-03 16:09:33.189 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2021-04-03 16:09:33.979 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2021-04-03 16:09:34.804 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-03 16:09:34.957 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-03 16:09:35.026 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-03 16:09:35.346 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-03 16:09:35.374 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-03 16:09:35.423 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-03 16:09:35.450 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2021-04-03 16:09:35.483 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2021-04-03 16:09:35.490 [restartedMain] INFO  com.study.hospital.ManageApplication - Started ManageApplication in 6.247 seconds (JVM running for 7.42)
+2021-04-03 16:22:46.677 [restartedMain] INFO  com.study.hospital.ManageApplication - Starting ManageApplication on YoRHa with PID 6080 (E:\JavaProject\study\ShangYiTong\yygh-parent\hospital-manage\target\classes started by Administrator in E:\JavaProject\study\ShangYiTong\yygh-parent)
+2021-04-03 16:22:46.682 [restartedMain] INFO  com.study.hospital.ManageApplication - The following profiles are active: dev
+2021-04-03 16:22:46.730 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-03 16:22:46.731 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-03 16:22:48.035 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-03 16:22:48.457 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2021-04-03 16:22:48.466 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2021-04-03 16:22:48.467 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-03 16:22:48.467 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-04-03 16:22:48.572 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-03 16:22:48.573 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1842 ms
+2021-04-03 16:22:48.875 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2021-04-03 16:22:49.371 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2021-04-03 16:22:50.023 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-03 16:22:50.119 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-03 16:22:50.168 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-03 16:22:50.459 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-03 16:22:50.470 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-03 16:22:50.513 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-03 16:22:50.548 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2021-04-03 16:22:50.584 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2021-04-03 16:22:50.591 [restartedMain] INFO  com.study.hospital.ManageApplication - Started ManageApplication in 4.474 seconds (JVM running for 5.626)
+2021-04-03 16:26:54.351 [http-nio-9998-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-03 16:26:54.351 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-03 16:26:54.356 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-04-03 16:26:54.471 [http-nio-9998-exec-1] INFO  com.study.hospital.util.HttpRequestHelper - 加密前：你猜|100|Sun Feb 28 00:00:00 CST 2021|231542314532614543|10|110100|||||200040878|110101|60587b5363cf491f4d17968d|1000_0|0|张三|561654842|110000|2021-04-04|1|1|1617438414307|674c4139707728439a6510eae12deea9
+2021-04-03 16:26:54.472 [http-nio-9998-exec-1] INFO  com.study.hospital.util.HttpRequestHelper - 加密后：e6d9a98275be679017b8a2f0fc3f9042
+2021-04-03 16:26:54.515 [http-nio-9998-exec-1] INFO  c.study.hospital.service.impl.HospitalServiceImpl - {"amount":"100","birthdate":"Sun Feb 28 00:00:00 CST 2021","districtCode":"110101","address":"你猜","hosScheduleId":"60587b5363cf491f4d17968d","provinceCode":"110000","cityCode":"110100","sex":"1","contactsCertificatesType":"","hoscode":"1000_0","isMarry":"0","contactsName":"","certificatesNo":"231542314532614543","contactsPhone":"","contactsCertificatesNo":"","phone":"561654842","reserveTime":"1","name":"张三","depcode":"200040878","reserveDate":"2021-04-04","certificatesType":"10","timestamp":"1617438414307"}
+2021-04-03 16:26:54.594 [http-nio-9998-exec-1] INFO  c.study.hospital.service.impl.HospitalServiceImpl - {"address":"你猜","birthdate":"Sun Feb 28 00:00:00 CST 2021","certificatesNo":"231542314532614543","certificatesType":"10","cityCode":"110100","contactsCertificatesNo":"","contactsCertificatesType":"","contactsName":"","contactsPhone":"","districtCode":"110101","isMarry":0,"name":"张三","param":{},"phone":"561654842","provinceCode":"110000","sex":1}
+2021-04-03 16:38:33.206 [http-nio-9998-exec-4] INFO  com.study.hospital.util.HttpRequestHelper - 加密前：你猜|100|Sun Feb 28 00:00:00 CST 2021|231542314532614543|10|110100|||||200040878|110101|60587b5363cf491f4d17968c|1000_0|0|张三|561654842|110000|2021-04-04|0|1|1617439113190|674c4139707728439a6510eae12deea9
+2021-04-03 16:38:33.206 [http-nio-9998-exec-4] INFO  com.study.hospital.util.HttpRequestHelper - 加密后：59fd35e34232d9a966a7ebfd8ec05e1b
+2021-04-03 16:38:33.235 [http-nio-9998-exec-4] INFO  c.study.hospital.service.impl.HospitalServiceImpl - {"amount":"100","birthdate":"Sun Feb 28 00:00:00 CST 2021","districtCode":"110101","address":"你猜","hosScheduleId":"60587b5363cf491f4d17968c","provinceCode":"110000","cityCode":"110100","sex":"1","contactsCertificatesType":"","hoscode":"1000_0","isMarry":"0","contactsName":"","certificatesNo":"231542314532614543","contactsPhone":"","contactsCertificatesNo":"","phone":"561654842","reserveTime":"0","name":"张三","depcode":"200040878","reserveDate":"2021-04-04","certificatesType":"10","timestamp":"1617439113190"}
+2021-04-03 16:38:33.271 [http-nio-9998-exec-4] INFO  c.study.hospital.service.impl.HospitalServiceImpl - {"address":"你猜","birthdate":"Sun Feb 28 00:00:00 CST 2021","certificatesNo":"231542314532614543","certificatesType":"10","cityCode":"110100","contactsCertificatesNo":"","contactsCertificatesType":"","contactsName":"","contactsPhone":"","districtCode":"110101","isMarry":0,"name":"张三","param":{},"phone":"561654842","provinceCode":"110000","sex":1}
+2021-04-03 16:40:45.170 [http-nio-9998-exec-5] INFO  com.study.hospital.util.HttpRequestHelper - 加密前：你猜|100|Sun Feb 28 00:00:00 CST 2021|231542314532614543|10|110100|||||200040878|110101|60587b5363cf491f4d17968d|1000_0|0|张三|561654842|110000|2021-04-04|1|1|1617439245159|674c4139707728439a6510eae12deea9
+2021-04-03 16:40:45.170 [http-nio-9998-exec-5] INFO  com.study.hospital.util.HttpRequestHelper - 加密后：9d3ccbfbf3ddc4188a81da66fed32279
+2021-04-03 16:40:45.171 [http-nio-9998-exec-5] INFO  c.study.hospital.service.impl.HospitalServiceImpl - {"amount":"100","birthdate":"Sun Feb 28 00:00:00 CST 2021","districtCode":"110101","address":"你猜","hosScheduleId":"60587b5363cf491f4d17968d","provinceCode":"110000","cityCode":"110100","sex":"1","contactsCertificatesType":"","hoscode":"1000_0","isMarry":"0","contactsName":"","certificatesNo":"231542314532614543","contactsPhone":"","contactsCertificatesNo":"","phone":"561654842","reserveTime":"1","name":"张三","depcode":"200040878","reserveDate":"2021-04-04","certificatesType":"10","timestamp":"1617439245159"}
+2021-04-03 16:40:45.209 [http-nio-9998-exec-5] INFO  c.study.hospital.service.impl.HospitalServiceImpl - {"address":"你猜","birthdate":"Sun Feb 28 00:00:00 CST 2021","certificatesNo":"231542314532614543","certificatesType":"10","cityCode":"110100","contactsCertificatesNo":"","contactsCertificatesType":"","contactsName":"","contactsPhone":"","districtCode":"110101","isMarry":0,"name":"张三","param":{},"phone":"561654842","provinceCode":"110000","sex":1}
+2021-04-03 16:43:15.863 [http-nio-9998-exec-6] INFO  com.study.hospital.util.HttpRequestHelper - 加密前：你猜|100|Sun Feb 28 00:00:00 CST 2021|231542314532614543|10|110100|||||200040878|110101|60587b5363cf491f4d17968d|1000_0|0|张三|561654842|110000|2021-04-04|1|1|1617439395857|674c4139707728439a6510eae12deea9
+2021-04-03 16:43:15.863 [http-nio-9998-exec-6] INFO  com.study.hospital.util.HttpRequestHelper - 加密后：8c418d90ce87193bedcc49daf66df2b6
+2021-04-03 16:43:15.864 [http-nio-9998-exec-6] INFO  c.study.hospital.service.impl.HospitalServiceImpl - {"amount":"100","birthdate":"Sun Feb 28 00:00:00 CST 2021","districtCode":"110101","address":"你猜","hosScheduleId":"60587b5363cf491f4d17968d","provinceCode":"110000","cityCode":"110100","sex":"1","contactsCertificatesType":"","hoscode":"1000_0","isMarry":"0","contactsName":"","certificatesNo":"231542314532614543","contactsPhone":"","contactsCertificatesNo":"","phone":"561654842","reserveTime":"1","name":"张三","depcode":"200040878","reserveDate":"2021-04-04","certificatesType":"10","timestamp":"1617439395857"}
+2021-04-03 16:43:15.866 [http-nio-9998-exec-6] INFO  c.study.hospital.service.impl.HospitalServiceImpl - {"address":"你猜","birthdate":"Sun Feb 28 00:00:00 CST 2021","certificatesNo":"231542314532614543","certificatesType":"10","cityCode":"110100","contactsCertificatesNo":"","contactsCertificatesType":"","contactsName":"","contactsPhone":"","districtCode":"110101","isMarry":0,"name":"张三","param":{},"phone":"561654842","provinceCode":"110000","sex":1}
+2021-04-03 16:53:21.517 [http-nio-9998-exec-6] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440001514&
+2021-04-03 16:53:21.950 [http-nio-9998-exec-6] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 16:53:24.112 [http-nio-9998-exec-8] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440004109&
+2021-04-03 16:53:24.122 [http-nio-9998-exec-8] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 16:53:32.432 [http-nio-9998-exec-7] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440012427&
+2021-04-03 16:53:32.443 [http-nio-9998-exec-7] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 16:53:42.908 [http-nio-9998-exec-3] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440022905&
+2021-04-03 16:53:42.915 [http-nio-9998-exec-3] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 16:53:55.764 [http-nio-9998-exec-3] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data sign=272e25e496c5007090545fce9fbbb3f7&hoscode=1000_0&timestamp=1617440035761&
+2021-04-03 16:53:55.772 [http-nio-9998-exec-3] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 16:53:56.882 [http-nio-9998-exec-3] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data sign=272e25e496c5007090545fce9fbbb3f7&hoscode=1000_0&timestamp=1617440036879&
+2021-04-03 16:53:56.888 [http-nio-9998-exec-3] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 16:53:57.725 [http-nio-9998-exec-2] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data sign=272e25e496c5007090545fce9fbbb3f7&hoscode=1000_0&timestamp=1617440037723&
+2021-04-03 16:53:57.733 [http-nio-9998-exec-2] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 16:53:59.561 [http-nio-9998-exec-4] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440039559&
+2021-04-03 16:53:59.569 [http-nio-9998-exec-4] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 16:54:02.614 [http-nio-9998-exec-1] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440042612&
+2021-04-03 16:54:02.621 [http-nio-9998-exec-1] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 16:55:23.190 [restartedMain] INFO  com.study.hospital.ManageApplication - Starting ManageApplication on YoRHa with PID 58432 (E:\JavaProject\study\ShangYiTong\yygh-parent\hospital-manage\target\classes started by Administrator in E:\JavaProject\study\ShangYiTong\yygh-parent)
+2021-04-03 16:55:23.193 [restartedMain] INFO  com.study.hospital.ManageApplication - The following profiles are active: dev
+2021-04-03 16:55:23.224 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-03 16:55:23.224 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-03 16:55:23.991 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-03 16:55:24.220 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2021-04-03 16:55:24.227 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2021-04-03 16:55:24.227 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-03 16:55:24.227 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-04-03 16:55:24.308 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-03 16:55:24.308 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1084 ms
+2021-04-03 16:55:24.464 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2021-04-03 16:55:24.796 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2021-04-03 16:55:25.163 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-03 16:55:25.241 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-03 16:55:25.278 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-03 16:55:25.425 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-03 16:55:25.435 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-03 16:55:25.460 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-03 16:55:25.475 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2021-04-03 16:55:25.492 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2021-04-03 16:55:25.494 [restartedMain] INFO  com.study.hospital.ManageApplication - Started ManageApplication in 2.695 seconds (JVM running for 3.484)
+2021-04-03 16:55:34.606 [http-nio-9998-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-03 16:55:34.606 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-03 16:55:34.611 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 5 ms
+2021-04-03 16:55:36.901 [http-nio-9998-exec-5] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440136896&
+2021-04-03 16:55:36.915 [http-nio-9998-exec-5] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 16:55:44.867 [http-nio-9998-exec-8] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440144863&
+2021-04-03 16:55:44.875 [http-nio-9998-exec-8] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 16:55:50.134 [http-nio-9998-exec-5] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440150129&
+2021-04-03 16:55:50.146 [http-nio-9998-exec-5] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 16:56:03.098 [http-nio-9998-exec-1] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440163091&
+2021-04-03 16:56:03.106 [http-nio-9998-exec-1] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 16:56:04.452 [http-nio-9998-exec-3] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440164445&
+2021-04-03 16:56:04.460 [http-nio-9998-exec-3] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 16:56:04.781 [http-nio-9998-exec-8] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440164778&
+2021-04-03 16:56:04.790 [http-nio-9998-exec-8] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 16:56:07.613 [http-nio-9998-exec-9] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440167610&
+2021-04-03 16:56:07.626 [http-nio-9998-exec-9] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 16:56:14.425 [http-nio-9998-exec-10] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440174419&
+2021-04-03 16:56:14.433 [http-nio-9998-exec-10] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 17:00:53.994 [restartedMain] INFO  com.study.hospital.ManageApplication - Starting ManageApplication on YoRHa with PID 67536 (E:\JavaProject\study\ShangYiTong\yygh-parent\hospital-manage\target\classes started by Administrator in E:\JavaProject\study\ShangYiTong\yygh-parent)
+2021-04-03 17:00:53.996 [restartedMain] INFO  com.study.hospital.ManageApplication - The following profiles are active: dev
+2021-04-03 17:00:54.028 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-03 17:00:54.029 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-03 17:00:54.990 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-03 17:00:55.256 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2021-04-03 17:00:55.263 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2021-04-03 17:00:55.264 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-03 17:00:55.265 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-04-03 17:00:55.336 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-03 17:00:55.337 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1308 ms
+2021-04-03 17:00:55.499 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2021-04-03 17:00:56.326 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2021-04-03 17:00:56.700 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-03 17:00:56.782 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-03 17:00:56.814 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-03 17:00:57.024 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-03 17:00:57.037 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-03 17:00:57.065 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-03 17:00:57.081 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2021-04-03 17:00:57.098 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2021-04-03 17:00:57.101 [restartedMain] INFO  com.study.hospital.ManageApplication - Started ManageApplication in 3.553 seconds (JVM running for 4.33)
+2021-04-03 17:01:15.408 [http-nio-9998-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-03 17:01:15.408 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-03 17:01:15.413 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-04-03 17:01:15.610 [http-nio-9998-exec-1] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440475594&
+2021-04-03 17:01:15.630 [http-nio-9998-exec-1] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 17:01:22.452 [http-nio-9998-exec-10] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440482448&
+2021-04-03 17:01:22.460 [http-nio-9998-exec-10] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 17:01:26.972 [http-nio-9998-exec-8] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440486968&
+2021-04-03 17:01:26.980 [http-nio-9998-exec-8] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 17:01:36.867 [http-nio-9998-exec-6] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440496859&
+2021-04-03 17:01:36.876 [http-nio-9998-exec-6] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 17:01:46.304 [http-nio-9998-exec-4] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440506301&
+2021-04-03 17:01:46.311 [http-nio-9998-exec-4] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 17:02:35.005 [http-nio-9998-exec-12] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440555002&
+2021-04-03 17:02:35.013 [http-nio-9998-exec-12] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 17:03:37.613 [restartedMain] INFO  com.study.hospital.ManageApplication - Starting ManageApplication on YoRHa with PID 59936 (E:\JavaProject\study\ShangYiTong\yygh-parent\hospital-manage\target\classes started by Administrator in E:\JavaProject\study\ShangYiTong\yygh-parent)
+2021-04-03 17:03:37.615 [restartedMain] INFO  com.study.hospital.ManageApplication - The following profiles are active: dev
+2021-04-03 17:03:37.645 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-03 17:03:37.646 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-03 17:03:38.394 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-03 17:03:38.614 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9998 (http)
+2021-04-03 17:03:38.621 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9998"]
+2021-04-03 17:03:38.621 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-04-03 17:03:38.621 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.27]
+2021-04-03 17:03:38.689 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-04-03 17:03:38.689 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1043 ms
+2021-04-03 17:03:38.827 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Starting...
+2021-04-03 17:03:39.446 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource - GuliHikariPool - Start completed.
+2021-04-03 17:03:39.802 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-03 17:03:39.866 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-03 17:03:39.894 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-04-03 17:03:40.047 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2021-04-03 17:03:40.058 [restartedMain] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2021-04-03 17:03:40.081 [restartedMain] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2021-04-03 17:03:40.094 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9998"]
+2021-04-03 17:03:40.112 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 9998 (http) with context path ''
+2021-04-03 17:03:40.114 [restartedMain] INFO  com.study.hospital.ManageApplication - Started ManageApplication in 2.9 seconds (JVM running for 3.739)
+2021-04-03 17:03:48.423 [http-nio-9998-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-03 17:03:48.423 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-04-03 17:03:48.427 [http-nio-9998-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 4 ms
+2021-04-03 17:03:50.194 [http-nio-9998-exec-2] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440630189&
+2021-04-03 17:03:50.210 [http-nio-9998-exec-2] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 17:03:52.615 [http-nio-9998-exec-4] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440632610&
+2021-04-03 17:03:52.623 [http-nio-9998-exec-4] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 17:04:58.459 [http-nio-9998-exec-7] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440698456&
+2021-04-03 17:04:58.470 [http-nio-9998-exec-7] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 17:04:59.243 [http-nio-9998-exec-4] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440699235&
+2021-04-03 17:04:59.249 [http-nio-9998-exec-4] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 17:04:59.971 [http-nio-9998-exec-2] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440699968&
+2021-04-03 17:04:59.977 [http-nio-9998-exec-2] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 17:05:00.733 [http-nio-9998-exec-3] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440700730&
+2021-04-03 17:05:00.739 [http-nio-9998-exec-3] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 17:05:01.595 [http-nio-9998-exec-10] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440701593&
+2021-04-03 17:05:01.602 [http-nio-9998-exec-10] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 17:05:03.905 [http-nio-9998-exec-5] INFO  com.study.hospital.util.HttpRequestHelper - --> 发送请求：post data limit=10&sign=272e25e496c5007090545fce9fbbb3f7&page=1&hoscode=1000_0&timestamp=1617440703901&
+2021-04-03 17:05:03.912 [http-nio-9998-exec-5] INFO  com.study.hospital.util.HttpRequestHelper - --> 应答结果：result data {"code":300,"message":"签名错误","data":null,"ok":false}
+2021-04-03 17:20:02.566 [http-nio-9998-exec-2] INFO  com.study.hospital.util.HttpRequestHelper - 加密前：你猜|100|Sun Feb 28 00:00:00 CST 2021|231542314532614543|10|110100|||||200040878|110101|60587b5363cf491f4d17968d|1000_0|0|张三|561654842|110000|2021-04-04|0|1|1617441602554|674c4139707728439a6510eae12deea9
+2021-04-03 17:20:02.566 [http-nio-9998-exec-2] INFO  com.study.hospital.util.HttpRequestHelper - 加密后：73e2d1a3791b02b1cb8442f74ca366de
+2021-04-03 17:20:02.579 [http-nio-9998-exec-2] INFO  c.study.hospital.service.impl.HospitalServiceImpl - {"amount":"100","birthdate":"Sun Feb 28 00:00:00 CST 2021","districtCode":"110101","address":"你猜","hosScheduleId":"60587b5363cf491f4d17968d","provinceCode":"110000","cityCode":"110100","sex":"1","contactsCertificatesType":"","hoscode":"1000_0","isMarry":"0","contactsName":"","certificatesNo":"231542314532614543","contactsPhone":"","contactsCertificatesNo":"","phone":"561654842","reserveTime":"0","name":"张三","depcode":"200040878","reserveDate":"2021-04-04","certificatesType":"10","timestamp":"1617441602554"}
+2021-04-03 17:20:02.611 [http-nio-9998-exec-2] INFO  c.study.hospital.service.impl.HospitalServiceImpl - {"address":"你猜","birthdate":"Sun Feb 28 00:00:00 CST 2021","certificatesNo":"231542314532614543","certificatesType":"10","cityCode":"110100","contactsCertificatesNo":"","contactsCertificatesType":"","contactsName":"","contactsPhone":"","districtCode":"110101","isMarry":0,"name":"张三","param":{},"phone":"561654842","provinceCode":"110000","sex":1}
+2021-04-03 17:23:41.055 [http-nio-9998-exec-4] INFO  com.study.hospital.util.HttpRequestHelper - 加密前：你猜|100|Sun Feb 28 00:00:00 CST 2021|231542314532614543|10|110100|||||200040878|110101|60587b5363cf491f4d17968d|1000_0|0|张三|561654842|110000|2021-04-04|0|1|1617441821050|674c4139707728439a6510eae12deea9
+2021-04-03 17:23:41.056 [http-nio-9998-exec-4] INFO  com.study.hospital.util.HttpRequestHelper - 加密后：f8313dfdd5110e1238665341f21a984f
+2021-04-03 17:23:41.057 [http-nio-9998-exec-4] INFO  c.study.hospital.service.impl.HospitalServiceImpl - {"amount":"100","birthdate":"Sun Feb 28 00:00:00 CST 2021","districtCode":"110101","address":"你猜","hosScheduleId":"60587b5363cf491f4d17968d","provinceCode":"110000","cityCode":"110100","sex":"1","contactsCertificatesType":"","hoscode":"1000_0","isMarry":"0","contactsName":"","certificatesNo":"231542314532614543","contactsPhone":"","contactsCertificatesNo":"","phone":"561654842","reserveTime":"0","name":"张三","depcode":"200040878","reserveDate":"2021-04-04","certificatesType":"10","timestamp":"1617441821050"}
+2021-04-03 17:23:41.062 [http-nio-9998-exec-4] INFO  c.study.hospital.service.impl.HospitalServiceImpl - {"address":"你猜","birthdate":"Sun Feb 28 00:00:00 CST 2021","certificatesNo":"231542314532614543","certificatesType":"10","cityCode":"110100","contactsCertificatesNo":"","contactsCertificatesType":"","contactsName":"","contactsPhone":"","districtCode":"110101","isMarry":0,"name":"张三","param":{},"phone":"561654842","provinceCode":"110000","sex":1}
+2021-04-03 17:23:55.816 [http-nio-9998-exec-3] INFO  com.study.hospital.util.HttpRequestHelper - 加密前：你猜|100|Sun Feb 28 00:00:00 CST 2021|231542314532614543|10|110100|||||200040878|110101|60587b5363cf491f4d17968d|1000_0|0|张三|561654842|110000|2021-04-04|0|1|1617441835811|674c4139707728439a6510eae12deea9
+2021-04-03 17:23:55.816 [http-nio-9998-exec-3] INFO  com.study.hospital.util.HttpRequestHelper - 加密后：e0f1590dc30e973fb07f4a6e733e05ba
+2021-04-03 17:23:55.817 [http-nio-9998-exec-3] INFO  c.study.hospital.service.impl.HospitalServiceImpl - {"amount":"100","birthdate":"Sun Feb 28 00:00:00 CST 2021","districtCode":"110101","address":"你猜","hosScheduleId":"60587b5363cf491f4d17968d","provinceCode":"110000","cityCode":"110100","sex":"1","contactsCertificatesType":"","hoscode":"1000_0","isMarry":"0","contactsName":"","certificatesNo":"231542314532614543","contactsPhone":"","contactsCertificatesNo":"","phone":"561654842","reserveTime":"0","name":"张三","depcode":"200040878","reserveDate":"2021-04-04","certificatesType":"10","timestamp":"1617441835811"}
+2021-04-03 17:23:55.820 [http-nio-9998-exec-3] INFO  c.study.hospital.service.impl.HospitalServiceImpl - {"address":"你猜","birthdate":"Sun Feb 28 00:00:00 CST 2021","certificatesNo":"231542314532614543","certificatesType":"10","cityCode":"110100","contactsCertificatesNo":"","contactsCertificatesType":"","contactsName":"","contactsPhone":"","districtCode":"110101","isMarry":0,"name":"张三","param":{},"phone":"561654842","provinceCode":"110000","sex":1}
+2021-04-03 17:24:14.301 [http-nio-9998-exec-7] INFO  com.study.hospital.util.HttpRequestHelper - 加密前：你猜|100|Sun Feb 28 00:00:00 CST 2021|231542314532614543|10|110100|||||200040878|110101|60587b5363cf491f4d17968d|1000_0|0|张三|561654842|110000|2021-04-04|0|1|1617441854296|674c4139707728439a6510eae12deea9
+2021-04-03 17:24:14.301 [http-nio-9998-exec-7] INFO  com.study.hospital.util.HttpRequestHelper - 加密后：6c663385e9ca8d27e9e4ca58fac4be19
+2021-04-03 17:24:14.302 [http-nio-9998-exec-7] INFO  c.study.hospital.service.impl.HospitalServiceImpl - {"amount":"100","birthdate":"Sun Feb 28 00:00:00 CST 2021","districtCode":"110101","address":"你猜","hosScheduleId":"60587b5363cf491f4d17968d","provinceCode":"110000","cityCode":"110100","sex":"1","contactsCertificatesType":"","hoscode":"1000_0","isMarry":"0","contactsName":"","certificatesNo":"231542314532614543","contactsPhone":"","contactsCertificatesNo":"","phone":"561654842","reserveTime":"0","name":"张三","depcode":"200040878","reserveDate":"2021-04-04","certificatesType":"10","timestamp":"1617441854296"}
+2021-04-03 17:24:14.304 [http-nio-9998-exec-7] INFO  c.study.hospital.service.impl.HospitalServiceImpl - {"address":"你猜","birthdate":"Sun Feb 28 00:00:00 CST 2021","certificatesNo":"231542314532614543","certificatesType":"10","cityCode":"110100","contactsCertificatesNo":"","contactsCertificatesType":"","contactsName":"","contactsPhone":"","districtCode":"110101","isMarry":0,"name":"张三","param":{},"phone":"561654842","provinceCode":"110000","sex":1}
+2021-04-03 19:38:24.856 [http-nio-9998-exec-9] INFO  com.study.hospital.util.HttpRequestHelper - 加密前：20|1000_0|1617449904821|674c4139707728439a6510eae12deea9
+2021-04-03 19:38:24.861 [http-nio-9998-exec-9] INFO  com.study.hospital.util.HttpRequestHelper - 加密后：4934814ba7c8ab42fcf932a4ea1bbafe
+2021-04-03 19:40:30.512 [http-nio-9998-exec-6] INFO  com.study.hospital.util.HttpRequestHelper - 加密前：20|1000_0|1617450030502|674c4139707728439a6510eae12deea9
+2021-04-03 19:40:30.512 [http-nio-9998-exec-6] INFO  com.study.hospital.util.HttpRequestHelper - 加密后：2c8ab83d9197facbc4e3f80b1709baae
