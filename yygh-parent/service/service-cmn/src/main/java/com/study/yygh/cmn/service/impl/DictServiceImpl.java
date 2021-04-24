@@ -39,7 +39,7 @@ public class DictServiceImpl extends ServiceImpl<DictMapper, Dict> implements Di
      */
     @Override
     @Cacheable(value = "dict", keyGenerator = "keyGenerator")  // 使用Spring Cache，底层存储到了redis中去
-    public List<Dict> findChlidData(Long id) {
+    public List<Dict> findChildData(Long id) {
         QueryWrapper<Dict> wrapper = new QueryWrapper();
         wrapper.eq("parent_id", id);
         List<Dict> dicts = baseMapper.selectList(wrapper);

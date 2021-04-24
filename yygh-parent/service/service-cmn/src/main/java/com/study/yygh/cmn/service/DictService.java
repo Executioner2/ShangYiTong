@@ -16,7 +16,7 @@ import java.util.List;
  */
 public interface DictService extends IService<Dict> {
     // 根据数据id查询子数据列表
-    List<Dict> findChlidData(Long id);
+    List<Dict> findChildData(Long id);
 
     void exportDictData(HttpServletResponse response);
 

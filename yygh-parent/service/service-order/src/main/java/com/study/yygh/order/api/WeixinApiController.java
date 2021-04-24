@@ -1,6 +1,5 @@
 package com.study.yygh.order.api;
 
-import com.study.yygh.enums.PaymentStatusEnum;
 import com.study.yygh.enums.PaymentTypeEnum;
 import com.study.yygh.order.service.PaymentInfoService;
 import com.study.yygh.order.service.WeiXinService;

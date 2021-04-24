@@ -1,4 +1,0 @@
-2021-03-20 13:30:12.191 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.atguigu.yygh.*.mapper]' package. Please check your configuration.
-2021-03-20 13:30:13.995 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server
-2021-03-20 13:34:56.572 [restartedMain] WARN  org.mybatis.spring.mapper.ClassPathMapperScanner - No MyBatis mapper was found in '[com.atguigu.yygh.*.mapper]' package. Please check your configuration.
-2021-03-20 13:34:58.467 [restartedMain] WARN  o.s.b.d.autoconfigure.OptionalLiveReloadServer - Unable to start LiveReload server

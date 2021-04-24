@@ -31,7 +31,7 @@ public class DictController {
     @ApiOperation(value = "根据id查询所有子节点")
     @GetMapping("findChildData/{id}")
     public Result findChildData(@PathVariable Long id){
-        List<Dict> dicts = dictService.findChlidData(id);
+        List<Dict> dicts = dictService.findChildData(id);
         return Result.ok(dicts);
     }
 
