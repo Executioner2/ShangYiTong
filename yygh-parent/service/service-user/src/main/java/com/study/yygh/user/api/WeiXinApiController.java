@@ -1,4 +1,4 @@
-package com.study.yygh.user.controller;
+package com.study.yygh.user.api;
 
 import cn.hutool.core.util.IdUtil;
 import com.alibaba.excel.util.StringUtils;
