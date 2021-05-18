@@ -24,7 +24,7 @@ import java.util.Map;
 @Api(tags = "微信支付接口")
 @RestController
 @RequestMapping("/api/order/weixin")
-public class WeixinApiController {
+public class WeiXinApiController {
     @Resource
     private WeiXinService weiXinService;
     @Resource
