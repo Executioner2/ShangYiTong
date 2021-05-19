@@ -2,7 +2,7 @@ E:\JavaProject\study\ShangYiTong\yygh-parent\service\service-user\src\main\java\
 E:\JavaProject\study\ShangYiTong\yygh-parent\service\service-user\src\main\java\com\study\yygh\user\api\PatientApiController.java
 E:\JavaProject\study\ShangYiTong\yygh-parent\service\service-user\src\main\java\com\study\yygh\user\api\UserInfoApiController.java
 E:\JavaProject\study\ShangYiTong\yygh-parent\service\service-user\src\main\java\com\study\yygh\user\config\UserConfig.java
-E:\JavaProject\study\ShangYiTong\yygh-parent\service\service-user\src\main\java\com\study\yygh\user\controller\WeiXinApiController.java
+E:\JavaProject\study\ShangYiTong\yygh-parent\service\service-user\src\main\java\com\study\yygh\user\api\WeiXinApiController.java
 E:\JavaProject\study\ShangYiTong\yygh-parent\service\service-user\src\main\java\com\study\yygh\user\service\PatientService.java
 E:\JavaProject\study\ShangYiTong\yygh-parent\service\service-user\src\main\java\com\study\yygh\user\util\HttpClientUtils.java
 E:\JavaProject\study\ShangYiTong\yygh-parent\service\service-user\src\main\java\com\study\yygh\user\mapper\UserInfoMapper.java

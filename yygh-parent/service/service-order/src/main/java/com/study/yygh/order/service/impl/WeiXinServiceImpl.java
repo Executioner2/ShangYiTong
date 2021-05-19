@@ -82,6 +82,7 @@ public class WeiXinServiceImpl implements WeiXinService {
             // 3、获得返回信息，是xml格式的
             String xml = httpClient.getContent();
             Map<String, String> resultMap = WXPayUtil.xmlToMap(xml); // 把xml转为map
+            System.out.println(resultMap);
             // 4、封装返回结果集
             Map map  = new HashMap();
             map.put("orderId", orderId);

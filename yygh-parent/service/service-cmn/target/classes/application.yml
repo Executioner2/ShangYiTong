@@ -1,5 +1,5 @@
 server:
-  port: 8789 # 原来的port: 8202
+  port: 8202
 
 spring:
   application:

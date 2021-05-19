@@ -32,7 +32,7 @@
         <span
         class="label">等级：</span>
         <div class="condition-wrapper">
-          <span class="item v-link clickable " 
+          <span class="item v-link clickable "
             :class="hostypeActiveIndex == index ? 'selected' : ''"
             v-for="(item, index) in hostypeList" :key="item.id"
             @click="hostypeSelect(item.value, index)">{{ item.name }}
@@ -46,7 +46,7 @@
           <span class="item v-link clickable"
             :class="provinceActiveIndex == index ? 'selected' : ''"
             v-for="(item, index) in districtList" :key="item.id"
-            @click="districtSelect(item.value, index)">{{ item.name }} 
+            @click="districtSelect(item.value, index)">{{ item.name }}
           </span>
         </div>
       </div>
@@ -80,8 +80,8 @@
            class="hospital-img">
     </div>
     </div>
-       
-    </div>  
+
+    </div>
     </div>
     </div>
     <div class="right">
@@ -182,6 +182,8 @@ export default {
   },
   data(){
     return{
+      list: [],
+      pages: 0,
       searchObj: {},
       page: 1,
       limit: 10,
@@ -196,9 +198,20 @@ export default {
     }
   },
   created(){
+    // this.listHosp()
     this.init()
   },
   methods:{
+    // listHosp() {
+    //   // 调用
+    //   hospApi.getPageList(1, 10, null)
+    //     .then(response => {
+    //       // 相当于在data() 中定义了一个变量list，然后把response.data.content赋值给list
+    //       this.list= response.data.content
+    //       this.pages= response.data.totalPages
+    //     })
+    // },
+
     // 查询医院等级列表 和 地区列表
     init(){
       // 查询医院等级列表
@@ -210,13 +223,13 @@ export default {
           this.hostypeList.push({"name":"全部", "value":""})
           // 遍历集合添加到等级列表中
           for (let i in response.data) {
-            this.hostypeList.push(response.data[i]) 
-          }          
-        })        
-      
+            this.hostypeList.push(response.data[i])
+          }
+        })
+
       // 查询地区列表，步骤同上面的等级列表
       dictApi.findByDictCode('Beijin')
-        .then(response => {          
+        .then(response => {
           this.districtList = []
           this.districtList.push({"name":"全部", "value":""})
           for (let i in response.data){
@@ -231,7 +244,7 @@ export default {
           this.list = response.data.content
           this.pages = response.data.totalPages
         })
-    },    
+    },
     // 按医院等级进行筛选
     hostypeSelect(hostype, index){
       this.list = []
@@ -249,7 +262,7 @@ export default {
       this.getList()
     },
     // 联想出查询的关键词
-    querySearchAsync(queryString, cb){      
+    querySearchAsync(queryString, cb){
       this.searchObj = []
       if(queryString == '') return
       hospApi.getHospByHosnameLike(queryString).then(response => {

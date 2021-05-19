@@ -9,8 +9,8 @@ com\study\yygh\user\service\impl\UserInfoServiceImpl.class
 com\study\yygh\user\util\HttpClientUtils$1.class
 com\study\yygh\user\mapper\PatientMapper.class
 com\study\yygh\user\util\ConstantWxPropertiesUtil.class
-com\study\yygh\user\controller\WeiXinApiController.class
 com\study\yygh\user\service\impl\PatientServiceImpl.class
 com\study\yygh\user\service\UserInfoService.class
 com\study\yygh\user\util\HttpClientUtils$2.class
+com\study\yygh\user\api\WeiXinApiController.class
 com\study\yygh\user\mapper\UserInfoMapper.class

@@ -1,6 +1,5 @@
 com\study\yygh\order\service\OrderService.class
 com\study\yygh\order\api\OrderApiController.class
-com\study\yygh\order\api\WeixinApiController.class
 com\study\yygh\order\config\OrderConfig.class
 com\study\yygh\order\service\impl\PaymentInfoServiceImpl.class
 com\study\yygh\order\mapper\OrderInfoMapper.class
@@ -8,6 +7,7 @@ com\study\yygh\order\service\PaymentInfoService.class
 com\study\yygh\order\util\HttpClient$1.class
 com\study\yygh\order\ServiceOrderApplication.class
 com\study\yygh\order\util\HttpClient.class
+com\study\yygh\order\api\WeiXinApiController.class
 com\study\yygh\order\mapper\RefundInfoMapper.class
 com\study\yygh\order\service\impl\OrderServiceImpl.class
 com\study\yygh\order\service\WeiXinService.class

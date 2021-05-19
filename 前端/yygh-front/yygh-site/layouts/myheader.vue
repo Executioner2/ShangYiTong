@@ -3,8 +3,10 @@
     <div class="wrapper">
       <!-- logo -->
       <div class="left-wrapper v-link selected">
-        <img style="width: 50px" width="50" height="50" src="~assets/images/logo.png">
-        <span class="text">尚医通 预约挂号统一平台</span>
+        <a href="/" style="text-decoration: none; color: #4490F1;">
+          <img style="width: 50px" width="50" height="50" src="~assets/images/logo.png">
+          <div class="text" style="display: inline-block; float: right; margin-top: 13px">尚医通 预约挂号统一平台</div>
+        </a>
       </div>
       <!-- 搜索框 -->
       <div class="search-wrapper">
@@ -72,16 +74,18 @@
         <!-- 手机登录 #end -->
 
         <!-- 微信登录 #start -->
-        <div class="operate-view" v-if="dialogAtrr.showLoginType === 'weixin'" >
-          <div class="wrapper wechat" style="height: 400px">
-            <div>
-              <div id="weixinLogin" style="height: 300px; weight: 300px; margin-bottom: 50px"></div>
-            </div>
-            <div class="bottom wechat" style="margin-top: -80px;">
-              <div class="phone-container">
-                <div class="phone-wrapper"  @click="phoneLogin()"><span
-                  class="iconfont icon"></span></div>
-                <span class="third-text"> 手机短信验证码登录 </span></div>
+        <div>
+          <div class="operate-view" v-if="dialogAtrr.showLoginType === 'weixin'" >
+            <div class="wrapper wechat" style="height: 400px">
+              <div>
+                <div id="weixinLogin" style="height: 300px; weight: 300px; margin-bottom: 50px"></div>
+              </div>
+              <div class="bottom wechat" style="margin-top: -80px;">
+                <div class="phone-container">
+                  <div class="phone-wrapper"  @click="phoneLogin()"><span
+                    class="iconfont icon"></span></div>
+                  <span class="third-text"> 手机短信验证码登录 </span></div>
+              </div>
             </div>
           </div>
         </div>
@@ -107,8 +111,8 @@
           </div>
         </div>
       </div>
-    </el-dialog>    
-    <div></div>
+    </el-dialog>
+
   </div>
 </template>
 <script>
@@ -160,8 +164,8 @@ export default {
   },
 
   created() {
-    this.showInfo()  
-    
+    this.showInfo()
+
   },
 
   mounted() {
@@ -170,7 +174,7 @@ export default {
     // 监听登录事件
     loginEvent.$on('loginDialogEvent', function () {
       document.getElementById("loginDialog").click();
-    })    
+    })
   },
 
   methods: {
@@ -194,7 +198,7 @@ export default {
                 text: this.codeUrl
           })
       })
-      
+
     },
 
     // 绑定登录或获取验证码按钮
@@ -220,7 +224,7 @@ export default {
     },
 
     // 登录
-    login() {      
+    login() {
       this.userInfo.code = this.dialogAtrr.inputValue
 
       if(this.dialogAtrr.loginBtn == '正在提交...') {
@@ -344,16 +348,16 @@ export default {
       window.location.href = '/hospital/' + item.hoscode
     },
 
-    
+
     weixinLogin() {
-      this.dialogAtrr.showLoginType = 'weixin' 
+      this.dialogAtrr.showLoginType = 'weixin'
 
       weixinApi.getLoginParam()
         .then(response => {
           this.codeUrl = response.data.codeUrl
           this.uuid = response.data.uuid
           // 显示二维码
-          this.qrcode(); 
+          this.qrcode();
           // ajax做轮询查询redis中是否获得了token
           this.polling()
 
@@ -361,23 +365,23 @@ export default {
     },
 
     // 轮询
-    polling(){      
+    polling(){
       if(this.clearPollingTime) {
-        clearInterval(this.clearPollingTime);        
+        clearInterval(this.clearPollingTime);
       }
-      var second = 60      
-      this.clearPollingTime = setInterval(() => {        
+      var second = 60
+      this.clearPollingTime = setInterval(() => {
         --second;
         if (second < 1) {
           this.$message.error('微信登录失败')
-          clearInterval(this.clearPollingTime)          
+          clearInterval(this.clearPollingTime)
         }
         // 访问数据库
         weixinApi.polling(this.uuid)
-          .then(response => {            
+          .then(response => {
             if(response.data != null){
               this.loginCallback(response.data.name, response.data.token, response.data.openid)
-              clearInterval(this.clearPollingTime) 
+              clearInterval(this.clearPollingTime)
             }
           })
       }, 1000);
