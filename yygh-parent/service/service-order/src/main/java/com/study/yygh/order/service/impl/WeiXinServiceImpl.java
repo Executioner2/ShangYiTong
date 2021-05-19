@@ -88,7 +88,7 @@ public class WeiXinServiceImpl implements WeiXinService {
             map.put("totalFee", orderInfo.getAmount());
             map.put("resultCode", resultMap.get("result_code"));
             map.put("codeUrl", resultMap.get("code_url"));
-            if(StringUtils.isEmpty(resultMap.get("result_code"))) {
+            if(!StringUtils.isEmpty(resultMap.get("result_code"))) {
                 // 微信支付二维码2小时过期，可采取2小时未支付取消订单
                 redisTemplate.opsForValue().set(orderId.toString(), map, 1000, TimeUnit.MINUTES);
             }
